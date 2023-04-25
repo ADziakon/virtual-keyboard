@@ -4,21 +4,31 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ADziakon/virtual-keyboard.git"
   },
-  "author": "",
+  "author": "ADziakon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ADziakon/virtual-keyboard/issues"
   },
   "homepage": "https://github.com/ADziakon/virtual-keyboard#readme",
   "devDependencies": {
+    "css-loader": "^6.7.3",
+    "dev-server": "^0.2.0",
     "eslint": "^8.39.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5"
+    "eslint-plugin-import": "^2.27.5",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2",
+    "sass-resources-loader": "^2.2.5",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2"
   }
 }

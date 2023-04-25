@@ -1,0 +1,20 @@
+.keyboard__wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.keyboard-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.keyboard__button {
+    background-color: #002233;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center ;
+    width:55px;
+    height: 55px;
+    /*padding-top: 22px;*/
+  }

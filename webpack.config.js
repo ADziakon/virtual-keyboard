@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './assets/scripts/scripts.js',
@@ -18,11 +19,20 @@ module.exports = {
           },
         ],
       }, {
-        test: /\.s[ac]ss$/i,
+        test: /\.css$/,
         use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
+          {
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+            },
+          },
+          {
+            loader: 'sass-loader',
+          },
           {
             loader: 'sass-resources-loader',
             options: {
@@ -39,4 +49,7 @@ module.exports = {
     compress: true,
     port: 3000,
   },
+  plugins: [
+    new HtmlWebpackPlugin(),
+  ],
 };

@@ -1,8 +1,16 @@
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 .keyboard__wrap{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  height:800px;
+  flex-direction: column;
 }
 .keyboard-row{
   display: flex;

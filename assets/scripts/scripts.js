@@ -1,4 +1,5 @@
 // import '../styles/main.scss';
-import buttons from './buttons.js';
+import '../styles/style.css';
+import init from './init.js';
 
-buttons();
+init();

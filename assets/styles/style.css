@@ -1,0 +1,28 @@
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.keyboard__wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height:800px;
+  flex-direction: column;
+}
+.keyboard-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.keyboard__button {
+    background-color: #002233;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center ;
+    width:55px;
+    height: 55px;
+    /*padding-top: 22px;*/
+  }
